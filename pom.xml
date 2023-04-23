@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.vanna</groupId>
+  <artifactId>in.vanna</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>tablesaw</name>
+  
+  <dependencies>
+	  <!-- https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-parent -->
+<dependency>
+    <groupId>tech.tablesaw</groupId>
+    <artifactId>tablesaw-parent</artifactId>
+    <version>0.43.1</version>
+    <type>pom</type>
+</dependency>
+
+	  <dependency>
+    <groupId>tech.tablesaw</groupId>
+    <artifactId>tablesaw-core</artifactId>
+    <version>LATEST</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>LATEST</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+        <version>LATEST</version>
+
+</dependency>
+<!-- https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-jsplot -->
+<dependency>
+    <groupId>tech.tablesaw</groupId>
+    <artifactId>tablesaw-jsplot</artifactId>
+    <version>LATEST</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-aggregate -->
+<!-- https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-aggregate -->
+<dependency>
+    <groupId>tech.tablesaw</groupId>
+    <artifactId>tablesaw-aggregate</artifactId>
+    <version>0.43.1</version>
+</dependency>
+
+
+  </dependencies>
+</project>
